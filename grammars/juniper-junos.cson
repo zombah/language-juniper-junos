@@ -198,7 +198,7 @@
   'unit':
     'patterns': [
       {
-        'match': '(?:\\s(?:(?:peer-)?unit|queue(?:-num)?|destination-port|source-port)[ ])((\\d{1,5})(-\\d{1,5})?)(?=[;]|$|\\b)'
+        'match': '(?:\\s(?:(?:peer-)?unit|queue(?:-num)?|port|destination-port|source-port)[ ])((\\d{1,5})(-\\d{1,5})?)(?=[;]|$|\\b)'
         'captures':
           '1':
             'name': 'constant.numeric.junos'
