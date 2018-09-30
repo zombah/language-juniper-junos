@@ -1,5 +1,5 @@
 'fileTypes': [
-  'jos', 'conf'
+  'jos', 'conf', 'jcl'
 ]
 'foldingStartMarker': '^.*{$'
 'foldingStopMarker': '^.*}$'
